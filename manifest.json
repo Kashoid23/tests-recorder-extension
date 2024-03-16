@@ -1,0 +1,16 @@
+{
+  "short_name": "GPT TR",
+  "name": "GPT Tests Recorder",
+  "description": "Generate test examples with ChatGPT from DevTools Recorder",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "GPT Tests Recorder"
+  },
+  "icons": {
+    "16": "logo128.png",
+    "48": "logo128.png",
+    "128": "logo128.png"
+  },
+  "devtools_page": "devtools.html"
+}
