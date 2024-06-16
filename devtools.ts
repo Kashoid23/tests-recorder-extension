@@ -12,25 +12,25 @@ declare namespace chrome.devtools {
 }
 
 chrome.devtools.recorder.registerRecorderExtensionPlugin(
-  new GPTTestsRecorderPlugin('Use rspec with capybara gem'),
+  new GPTTestsRecorderPlugin('rspec_capybara'),
   'Export as RSpec/Capybara E2E tests',
   'application/javascript'
 );
 
 chrome.devtools.recorder.registerRecorderExtensionPlugin(
-  new GPTTestsRecorderPlugin('Use rspec with site_prism gem with page elements grouped into sections whenever possible'),
+  new GPTTestsRecorderPlugin('rspec_capybara_site_prism'),
   'Export as RSpec/Capybara/SitePrism E2E tests',
   'application/javascript'
 );
 
 chrome.devtools.recorder.registerRecorderExtensionPlugin(
-  new GPTTestsRecorderPlugin('Use @testing-library/react lib'),
+  new GPTTestsRecorderPlugin('react_testing_library'),
   'Export as React Testing Library tests',
   'application/javascript'
 );
 
 chrome.devtools.recorder.registerRecorderExtensionPlugin(
-  new GPTTestsRecorderPlugin('Use cucumber with gherkin syntax with separate files for features and ruby step definitions'),
+  new GPTTestsRecorderPlugin('cucumber_gherkin'),
   'Export as Cucumber/Gherkin BDD tests',
   'application/javascript'
 );
