@@ -10,7 +10,7 @@ export class GPTTestsRecorderPlugin {
   async stringify(recording) {
     return new Promise(async (resolve, reject) => {
       try {
-        const result = await fetch('https://gpt-tests-recorder-api-6bff8f232faa.herokuapp.com/v1/tests', {
+        const result = await fetch('https://gpt-tests-recorder.onrender.com/v1/tests', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
