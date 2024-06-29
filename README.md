@@ -15,10 +15,17 @@ Install the extension from the [Chrome Web Store](https://chromewebstore.google.
 3. Choose existing recording or create a new one.
 4. Click the "Export" button.
 5. Select from "Export via extensions" one of the following options:
+   - Export as Jest tests
+   - Export as Jasime tests
+   - Export as MochaJS tests
+   - Export as React Testing Library tests
    - Export as RSpec/Capybara E2E tests
    - Export as RSpec/Capybara/SitePrism E2E tests
-   - Export as React Testing Library tests
    - Export as Cucumber/Gherkin BDD tests
+   - Export as Cucumber/Cypress/Gherkin BDD tests
+   - Export as CucumberJVM/Gherkin BDD tests
+   - Export as JBehave/Gherkin BDD tests
+   - Export as Lettuce/Gherkin BDD tests
 6. Wait for the extension to process the recording and generate the test example with ChatGPT.
 
 ## Development
