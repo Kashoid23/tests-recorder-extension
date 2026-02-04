@@ -2,7 +2,7 @@
 
 Generate test examples with ChatGPT from DevTools Recorder
 
-[Demo](https://www.youtube.com/watch?v=4Ki4YdZ5g50)
+[Demo](https://youtu.be/PxLhcf_eB_M?si=Buvkxpc9HlVy5PrY)
 
 ## Installation
 
